@@ -1,0 +1,12 @@
+#label-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#label-div label{
+    margin-right: 150px;
+    color: white;
+    background: #171822;
+    padding: 10px 0px;
+}

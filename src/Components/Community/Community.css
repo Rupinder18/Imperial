@@ -1,0 +1,48 @@
+.com-div h1{
+    font-size: 70px;
+    color: #FDA32B;
+    text-align: center;
+    padding: 50px;
+}
+.com-div p{
+    text-align: center;
+    color: white;
+}
+#btn-comm{
+    background: #171822;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #FDA32B ;
+    outline: none;
+    border-radius: 15px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+.comm-container{
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+@media (max-width:476px){
+    .com-div h1{
+        font-size: 40px;
+    }
+    .com-div p{
+        padding: 0px 15px;
+        font-size: 20px;
+        margin: 20px;
+    }
+    .comm-container{
+        padding-top: 65px;
+    }
+    #btn-comm{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}

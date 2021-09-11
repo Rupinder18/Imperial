@@ -1,0 +1,64 @@
+.ticket-div{
+    background:#171822 ;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+}
+#ticket-img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+#tikt h1{
+    color: #FDA32B;
+    font-size: 70px;
+    margin-left: 30px;
+}
+#plane-id{
+    width: 200px;
+    height: 180px;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+#tikt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.ticket-para{
+    color: white;
+}
+.ticket-para{
+    line-height: 1.5;
+    padding: 10px;
+}
+@media (max-width:476px){
+    
+    #tikt h1{
+        font-size: 40px;
+        margin-left: 16px;
+    }
+    .ticket-div{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    #tikt{
+        padding: 20px;
+    }
+    #ticket-img{
+        width: 45px;
+        height: 45px;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    #plane-id{
+    margin-left: 45px;
+
+    }
+    .ticket-para{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
