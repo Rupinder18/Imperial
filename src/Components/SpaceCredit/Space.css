@@ -68,7 +68,7 @@
         border: 1px solid white;
     }
 }
-@media(max-width:576px){
+@media (min-width:361px) and (max-width:576px){
     .space-hddr{
 font-size: 47px;
     }
@@ -82,7 +82,7 @@ font-size: 47px;
     }
 
 }
-@media(max-width:767px){
+@media (min-width:577px) and (max-width:767px){
     .ticket-div{
         padding: 20px 15px;
     }

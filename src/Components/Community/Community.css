@@ -49,7 +49,7 @@
         margin: 10px;
     }
 }
-@media (max-width:576px){
+@media (min-width:361px) and (max-width:576px){
     .com-div h1{
         font-size: 47px;
     }
@@ -66,7 +66,7 @@
         
     }
 }
-@media (max-width:992px){
+@media (min-width:577px) and (max-width:992px){
     .comm-container{
         padding-top: 50px;
     }

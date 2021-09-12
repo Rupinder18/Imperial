@@ -53,7 +53,7 @@
         text-align: justify;
     }
 }
-@media (max-width:576px){
+@media  (min-width:361px) and (max-width:576px){
     #tikt h1{
         font-size: 47px; 
     }
@@ -69,7 +69,7 @@
     }
    
 }
-@media (max-width:767px){
+@media  (min-width:577px) and (max-width:767px){
     #plane-id{
         margin-left: 166px;
         width: 235px;
@@ -86,7 +86,7 @@
     }
       
 }
-@media (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
     .ticket-div{
         padding: 20px;
     }

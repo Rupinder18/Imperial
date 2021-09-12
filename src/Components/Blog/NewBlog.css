@@ -56,7 +56,7 @@
 font-size: 12px;
 }
 }
-@media(max-width:576px){
+@media (min-width:361px) and (max-width:576px){
     .Blog h1{
         font-size: 47px;
     }
@@ -74,7 +74,7 @@ font-size: 12px;
 font-size: 17px;
 }
 }
-@media(max-width:767px){
+@media (min-width:577px) and (max-width:767px){
     .blog-div-one,
     .blog-div-two{
     width: 100%;

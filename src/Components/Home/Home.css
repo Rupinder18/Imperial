@@ -229,7 +229,7 @@ width: 100px;
 height: 130px;
 }
 }
-@media(max-width:576px){
+@media (min-width:361px) and (max-width:576px){
     .home-hddr-div h1{
         font-size: 20px;
     }
@@ -260,7 +260,7 @@ height: 130px;
         width: 100%;   
        }
 }
-@media (max-width:767px){
+@media (min-width:577px) and (max-width:767px){
     #label2{
         font-size: 70px;
     }
@@ -277,7 +277,7 @@ height: 130px;
            margin:20px;
        }
 }
-@media (max-width:992px){
+@media (min-width:768px) and (max-width:992px){
     .home-hddr-div {
         height: 350px;
         width: 50%;
