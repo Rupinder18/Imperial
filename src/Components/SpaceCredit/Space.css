@@ -48,22 +48,23 @@
     border-radius: 20px;
     margin: 20px 10px;
 }
-@media (max-width:476px){
+@media(max-width:360px){
     .space-hddr{
-        font-size: 35px;
-    }
-    .spce-p p{
-        margin-left: -40px;
-        font-size: 20px;
-    }
-    
-    #space-img{
-        width: 50px;
-        height: 50px;
+        font-size: 26px;
         margin: 10px;
     }
+    #space-img{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .spce-p{
+        margin: 10px;
+        font-size: 12px;
+    }
     #space-id{
-        width: 80%;
-        height: 80%;
+        height: 156px;
+        width: 250px;
+        border: 1px solid white;
     }
 }

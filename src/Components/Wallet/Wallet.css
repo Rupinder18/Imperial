@@ -33,21 +33,20 @@
 .w-img{
     text-align: center;
 }
-@media (max-width:476px){
+@media(max-width:360px){
     .wallet-div h1{
-  font-size: 40px;
-  margin-right: 64px;
+        font-size: 26px;
     }
     #wallet-img{
-        margin-right: 166px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        width: 30px;
+        height: 30px;
+        margin-left: -34px;
     }
     .wallet-paragraph{
-        font-size: 20px;
-    margin: 20px;
+        font-size: 12px;
     }
     #wallet-mobile{
-        height: 168px;
+        height: 130px;
+        width: 130px;
     }
 }

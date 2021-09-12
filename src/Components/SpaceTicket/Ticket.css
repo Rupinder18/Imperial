@@ -34,31 +34,22 @@
     line-height: 1.5;
     padding: 10px;
 }
-@media (max-width:476px){
-    
+@media (max-width:360px){
     #tikt h1{
-        font-size: 40px;
-        margin-left: 16px;
+        font-size: 26px; 
     }
     .ticket-div{
-        margin-top: 20px;
-        padding: 10px;
-    }
-    #tikt{
-        padding: 20px;
+        padding: 25px 10px;
     }
     #ticket-img{
-        width: 45px;
-        height: 45px;
-        margin-left: 120px;
-        margin-bottom: 20px;
+        width: 30px;
+        height: 30px;
     }
     #plane-id{
-    margin-left: 45px;
-
+        margin-left: 30px;
     }
     .ticket-para{
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 12px;
+        text-align: justify;
     }
 }

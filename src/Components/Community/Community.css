@@ -29,20 +29,23 @@
     justify-content: center;
     padding-bottom: 50px;
 }
-@media (max-width:476px){
+@media (max-width:360px){
     .com-div h1{
-        font-size: 40px;
+        font-size: 26px;
     }
     .com-div p{
-        padding: 0px 15px;
-        font-size: 20px;
-        margin: 20px;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 15px;
     }
     .comm-container{
-        padding-top: 65px;
+
+        padding-top: 25px;
+        flex-direction: column;
+    
     }
     #btn-comm{
-        font-size: 20px;
-        margin-bottom: 20px;
+    
+        margin: 10px;
     }
 }
