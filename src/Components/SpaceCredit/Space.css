@@ -68,3 +68,28 @@
         border: 1px solid white;
     }
 }
+@media(max-width:576px){
+    .space-hddr{
+font-size: 47px;
+    }
+    #space-img{
+       margin-top: 10px;
+       margin-left: 2px;
+    }
+    .spce-p{
+       margin: 10px;
+       font-size: 17px;
+    }
+
+}
+@media(max-width:767px){
+    .ticket-div{
+        padding: 20px 15px;
+    }
+    .space-hddr{
+        font-size: 70px;
+    }
+    #space-img{
+        margin-left: 5px;
+    }
+}

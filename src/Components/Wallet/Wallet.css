@@ -50,3 +50,22 @@
         width: 130px;
     }
 }
+@media (max-width:576px){
+    .wallet-div h1{
+        font-size: 47px;
+    }
+    #wallet-img{
+        margin-right: 29px;
+        margin-left: -29px;
+    }
+    .wallet-paragraph{
+        font-size: 17px;
+        margin: 10px;
+    }
+}
+@media(max-width:767px){
+    .wallet-div h1{
+      margin: 10px;
+      font-size: 66px;
+    }
+}

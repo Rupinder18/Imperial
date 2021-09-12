@@ -56,3 +56,28 @@
 font-size: 12px;
 }
 }
+@media(max-width:576px){
+    .Blog h1{
+        font-size: 47px;
+    }
+    .blog-div-one,
+    .blog-div-two{
+    width: 100%;
+    height: 100%;
+}
+.blog-div-one a ,.blog-div-two a{
+    font-size: 17px;
+
+}
+.blog-div-one p ,.blog-div-two p{
+    padding-top: 10px;
+font-size: 17px;
+}
+}
+@media(max-width:767px){
+    .blog-div-one,
+    .blog-div-two{
+    width: 100%;
+    height: 100%;
+}
+}

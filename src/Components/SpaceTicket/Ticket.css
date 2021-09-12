@@ -53,3 +53,44 @@
         text-align: justify;
     }
 }
+@media (max-width:576px){
+    #tikt h1{
+        font-size: 47px; 
+    }
+    .ticket-div{
+        padding: 15px 10px;
+    }
+    #ticket-img{
+        
+    }
+    #plane-id{
+        margin-left: 107px;
+        margin-bottom: 20px;
+    }
+   
+}
+@media (max-width:767px){
+    #plane-id{
+        margin-left: 166px;
+        width: 235px;
+        height: 235px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #tikt h1{
+        font-size: 66px;
+    }
+    .ticket-div{
+        padding: 25px 10px;
+        border: solid black;
+    }
+      
+}
+@media (max-width:992px){
+    .ticket-div{
+        padding: 20px;
+    }
+    #plane-id{
+        margin-left: 217px;
+    }
+}

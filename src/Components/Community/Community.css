@@ -49,3 +49,25 @@
         margin: 10px;
     }
 }
+@media (max-width:576px){
+    .com-div h1{
+        font-size: 47px;
+    }
+    .com-div p{
+        font-size: 17px;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .comm-container{
+    padding: 10px;
+    }
+    #btn-comm{
+    margin: 5px;
+        
+    }
+}
+@media (max-width:992px){
+    .comm-container{
+        padding-top: 50px;
+    }
+}

@@ -126,6 +126,42 @@ font-weight: -300;
           text-align: center;
       }
   }
+  @media(max-width:576px){
+    #hamburger{
+      display: block;
+      padding-top: 20px;
+    }
+    #overlay{
+      display: none;
+    }
+    #logo-img{
+      margin-left: 31px;
+    }
+    .nav-header h1{
+      padding-left: 54px;
+    }
+    
+  }
+  @media (max-width:767px){
+    #hamburger{
+      display: block;
+      padding-top: 20px;
+      margin-left: 306px;
+    }
+    #overlay{
+      display: none;
+    }
+  }
+  @media(max-width:992px){
+    #hamburger{
+          display: block;
+          margin-left: 458px;
+          padding-top: 23px;
+    }
+    #overlay{
+      display: none;
+    }
+  }
   
   
   
