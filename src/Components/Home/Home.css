@@ -279,18 +279,18 @@ height: 130px;
 }
 @media (min-width:768px) and (max-width:992px){
     .home-hddr-div {
-        height: 350px;
+        height: 100%;
         width: 50%;
         padding: 10px;
     }
     .home-img-div{
         width: 50%;
-        height: 350px;
+        height: 50%;
         padding: 10px;
     }
     #img-div{
         width: 80%;
-    height: 330px;
+    height: 100%;
     margin-left: auto;
     }
     
