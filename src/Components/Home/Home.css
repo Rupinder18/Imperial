@@ -288,6 +288,12 @@ height: 130px;
         height: 50%;
         padding: 10px;
     }
+    #p-btn{
+        margin-right: 16px;
+    }
+    #span-button{
+        margin-left: 0px;
+    }
     #img-div{
         width: 80%;
     height: 100%;
