@@ -8,17 +8,18 @@
     font-size: 70px;
     color: #FDA32B;
     text-align: center;
-    margin-right: 50px;
+     margin-left: 20px;
+     margin-right: 20px;
 }
 #wallet-img{
     width: 70px;
     height: 70px;
-    margin-right: 50px;
+    
 }
 .wallet-div{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -29,6 +30,7 @@
 #wallet-mobile{
     width: 300px;
     height: 230px;
+
 }
 .w-img{
     text-align: center;
